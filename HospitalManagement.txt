@@ -1,0 +1,219 @@
+HospitalManagement database
+Collections: 
+Hospital
+Ventilators
+
+Hospital
+{
+        "_id" : ObjectId("5f6f0f877e037a5ab156e948"),
+        "Hid" : "h1",
+        "name" : "Care Hospital",
+        "address" : "Road no ,Banjara Hills 500034",
+        "contact" : "789456120"
+}
+{
+        "_id" : ObjectId("5f6f10027e037a5ab156e949"),
+        "Hid" : "h2",
+        "name" : "Aditya Hospital",
+        "address" : "Bogulkunta Tilak Nagar 500001",
+        "contact" : "7756484512"
+}
+{
+        "_id" : ObjectId("5f6f10857e037a5ab156e94a"),
+        "Hid" : "h3",
+        "name" : "Yashoda Super Speciality Hospital",
+        "address" : "Nalgonda X road, Malakpet 500036",
+        "contact" : "6302147890"
+}
+{
+        "_id" : ObjectId("5f6f11147e037a5ab156e94b"),
+        "Hid" : "h4",
+        "name" : "Kamineni Hospital",
+        "address" : "L.B Nagar Hyderabad 500068",
+        "contact" : "9963054879"
+}
+{
+        "_id" : ObjectId("5f6f11f87e037a5ab156e94c"),
+        "Hid" : "h5",
+        "name" : "Omni Hospital",
+        "address" : "Hno:11-9-46 Opp PVT Market Kothapet X road Hyderabad 500036",
+        "contact" : "9898956565"
+}
+Ventilators
+{
+        "_id" : ObjectId("5f6f139d7e037a5ab156e94e"),
+        "hid" : "h1",
+        "vid" : "h1v3",
+        "status" : "occupied",
+        "hname" : "Care Hospital"
+}
+{
+        "_id" : ObjectId("5f6f139d7e037a5ab156e94f"),
+        "hid" : "h1",
+        "vid" : "h1v2",
+        "status" : "available",
+        "hname" : "Care Hospital"
+}
+{
+        "_id" : ObjectId("5f6f14017e037a5ab156e950"),
+        "hid" : "h1",
+        "vid" : "h1v4",
+        "status" : "inmaintenance",
+        "hname" : "Care Hospital"
+}
+{
+        "_id" : ObjectId("5f6f144e7e037a5ab156e952"),
+        "hid" : "h2",
+        "vid" : "h2v2",
+        "status" : "available",
+        "hname" : "Aditya Hospital"
+}
+{
+        "_id" : ObjectId("5f6f144e7e037a5ab156e953"),
+        "hid" : "h2",
+        "vid" : "h2v3",
+        "status" : "available",
+        "hname" : "Aditya Hospital"
+}
+{
+        "_id" : ObjectId("5f6f149a7e037a5ab156e954"),
+        "hid" : "h2",
+        "vid" : "h2v1",
+        "status" : "occupied",
+        "hname" : "Aditya Hospital"
+}
+{
+        "_id" : ObjectId("5f6f14c57e037a5ab156e955"),
+        "hid" : "h3",
+        "vid" : "h3v2",
+        "status" : "available",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f14c57e037a5ab156e956"),
+        "hid" : "h3",
+        "vid" : "h3v1",
+        "status" : "available",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f14ea7e037a5ab156e957"),
+        "hid" : "h3",
+        "vid" : "h3v4",
+        "status" : "occupied",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f14ea7e037a5ab156e958"),
+        "hid" : "h3",
+        "vid" : "h3v3",
+        "status" : "occupied",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15177e037a5ab156e959"),
+        "hid" : "h3",
+        "vid" : "h3v6",
+        "status" : "inmaintenance",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15177e037a5ab156e95a"),
+        "hid" : "h3",
+        "vid" : "h3v5",
+        "status" : "inmaintenance",
+        "hname" : "Yashoda Super Speciality Hospital"
+}
+{
+        "_id" : ObjectId("5f6f155d7e037a5ab156e95b"),
+        "hid" : "h4",
+        "vid" : "h4v1",
+        "status" : "inmaintenance",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15ac7e037a5ab156e95c"),
+        "hid" : "h4",
+        "vid" : "h4v2",
+        "status" : "available",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15ac7e037a5ab156e95d"),
+        "hid" : "h4",
+        "vid" : "h4v3",
+        "status" : "available",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15be7e037a5ab156e95e"),
+        "hid" : "h4",
+        "vid" : "h4v5",
+        "status" : "available",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15be7e037a5ab156e95f"),
+        "hid" : "h4",
+        "vid" : "h4v4",
+        "status" : "available",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f15d87e037a5ab156e960"),
+        "hid" : "h4",
+        "vid" : "h4v6",
+        "status" : "available",
+        "hname" : "Kamineni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f161a7e037a5ab156e961"),
+        "hid" : "h5",
+        "vid" : "h5v1",
+        "status" : "occupied",
+        "hname" : "Omni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f161a7e037a5ab156e962"),
+        "hid" : "h5",
+        "vid" : "h5v2",
+        "status" : "occupied",
+        "hname" : "Omni Hospital"
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("5f6f16397e037a5ab156e963"),
+        "hid" : "h5",
+        "vid" : "h5v3",
+        "status" : "available",
+        "hname" : "Omni Hospital"
+}
+{
+        "_id" : ObjectId("5f6f16397e037a5ab156e964"),
+        "hid" : "h5",
+        "vid" : "h5v4",
+        "status" : "available",
+        "hname" : "Omni Hospital"
+}
+{
+        "_id" : ObjectId("5f702aabd45a994a8c3073f5"),
+        "hid" : "h1",
+        "vid" : "h1v5",
+        "status" : "inmaintenance",
+        "hname" : "Care Hospital"
+}
+{
+        "_id" : ObjectId("5f75bfb0f90d3f3c58aa2de2"),
+        "hid" : "h1",
+        "vid" : "h1v6",
+        "status" : "inmaintenance",
+        "hname" : "Care Hospital"
+}
+{
+        "_id" : ObjectId("5f78133176b9363754ba3148"),
+        "hid" : "h5",
+        "vid" : "h5v5",
+        "status" : "occupied",
+        "hname" : "Omni Hospital"
+}
